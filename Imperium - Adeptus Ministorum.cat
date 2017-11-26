@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adeptus Ministorum" book="Index: Imperium 2" revision="11" battleScribeVersion="2.01" authorName="Alphalas" authorContact="Gitter: @Alphalas, twitter: @kingoverlord" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adeptus Ministorum" book="Index: Imperium 2" revision="12" battleScribeVersion="2.01" authorName="Alphalas" authorContact="Gitter: @Alphalas, twitter: @kingoverlord" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1023,7 +1023,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="e043-74b8-0e6c-8e90" name="Melee Weapons" hidden="false" targetId="8235-67f6-27ad-1348" type="selectionEntryGroup">
+            <entryLink id="e043-74b8-0e6c-8e90" name="Melee Weapons CHARACTER" hidden="false" targetId="5a62-d5f7-920a-2f65" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1654,7 +1654,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="pts" costTypeId="points" value="135.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
       </costs>
     </selectionEntry>
@@ -3825,7 +3825,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="12.0"/>
+                        <cost name="pts" costTypeId="points" value="6.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -3847,7 +3847,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="24.0"/>
+                        <cost name="pts" costTypeId="points" value="18.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                       </costs>
                     </selectionEntry>
@@ -4351,7 +4351,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
+            <cost name="pts" costTypeId="points" value="25.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
           </costs>
         </selectionEntry>
@@ -4480,7 +4480,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="150.0"/>
+            <cost name="pts" costTypeId="points" value="200.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
           </costs>
         </selectionEntry>
@@ -5883,7 +5883,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="12.0"/>
+        <cost name="pts" costTypeId="points" value="9.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6115,7 +6115,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="22.0"/>
+        <cost name="pts" costTypeId="points" value="12.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -6641,6 +6641,39 @@
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1816-60ff-8b65-bde4" name="Blade of Admonition" book="Chapter Approved 2017" page="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e9ad-a5a8-1456-6453" name="Blade of Admonition" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="f832-e250-2e78-cc35" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="1271-83ae-7aca-4144" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f9cd-d162-4f4c-28d7" name="Pistols" hidden="false" collective="false" defaultSelectionEntryId="5a4c-5d77-44bf-0d16">
@@ -7069,6 +7102,61 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a830-5a1f-f19e-4bb3" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5a62-d5f7-920a-2f65" name="Melee Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3349-2869-3957-6418" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40a2-56cb-3145-0bf1" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="740b-b03c-640d-1c9c" name="Chainsword" hidden="false" targetId="c7fb-955d-a717-3a72" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dac0-effb-294d-7e17" name="Power axe" hidden="false" targetId="76bc-e89e-1253-e291" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="28b1-bee0-905c-5c5c" name="Power sword" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="20da-75d1-9bf4-10a0" name="Power maul" hidden="false" targetId="bc21-41e0-3919-d231" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b191-cab6-9f46-f99f" name="Blade of Admonition" hidden="false" targetId="1816-60ff-8b65-bde4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
