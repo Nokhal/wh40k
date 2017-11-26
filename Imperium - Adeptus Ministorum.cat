@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adeptus Ministorum" book="Index: Imperium 2" revision="12" battleScribeVersion="2.01" authorName="Alphalas" authorContact="Gitter: @Alphalas, twitter: @kingoverlord" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adeptus Ministorum" book="Index: Imperium 2, AM Codex, FAQ and CA updated" revision="12" battleScribeVersion="2.01" authorName="Anon" authorContact="" authorUrl="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6537,7 +6537,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="71.0"/>
+        <cost name="pts" costTypeId="points" value="91.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
       </costs>
     </selectionEntry>
@@ -6663,7 +6663,6 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="f832-e250-2e78-cc35" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="1271-83ae-7aca-4144" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
