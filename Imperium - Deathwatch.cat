@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="203b-f8dd-2a64-2676" name="Imperium - Deathwatch" book="Index: Imperium 1" revision="13" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github or gitter" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="203b-f8dd-2a64-2676" name="Imperium - Deathwatch" book="Index: Imperium 1" revision="16" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github or gitter" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -646,11 +646,17 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="b69b-f704-9407-831e" name="New EntryLink" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+                <entryLink id="b69b-f704-9407-831e" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="15">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c4-df2a-60f5-8934" type="max"/>
                   </constraints>
@@ -746,6 +752,30 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7bed-4429-6e0d-4fea" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8059-5219-ce8c-5648" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6be-403f-5b72-c438" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -972,6 +1002,30 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9421-8d05-dde0-d43e" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="960f-89bb-9aee-42dd" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f19-3ed3-633c-5e71" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
@@ -1163,6 +1217,30 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5f1-8f5f-9bc3-806f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e235-00e8-20b3-22f0" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0149-8c3f-ee2d-eead" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="261e-7175-3b7d-7ed7" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d8d-1a3f-08af-1e87" name="Relics" hidden="false" targetId="a06a-d610-aa13-235d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1410,7 +1488,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="93.0"/>
+        <cost name="pts" costTypeId="points" value="83.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd95-ec67-12ae-a538" name="Land Raider" hidden="false" collective="false" type="unit">
@@ -1642,7 +1720,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 10 CHAPTER INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other infantry models and each CENTURION takes the space of three other models. It cannot transport PRIMARIS models."/>
+            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 12 CHAPTER INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other infantry models and each CENTURION takes the space of three other models. It cannot transport PRIMARIS models."/>
           </characteristics>
         </profile>
         <profile id="00a8-2d55-f7a3-58c2" name="Land Raider" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -1854,7 +1932,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 10 CHAPTER INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other infantry models and each CENTURION takes the space of three other models. It cannot transport PRIMARIS models."/>
+            <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 16 CHAPTER INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other infantry models and each CENTURION takes the space of three other models. It cannot transport PRIMARIS models."/>
           </characteristics>
         </profile>
         <profile id="8b24-31b8-371e-5be0" name="Land Raider" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -2296,10 +2374,34 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fa93-5fe3-03d0-003e" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6ec8-95ac-b536-6876" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="648d-8184-573b-06b7" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" costTypeId="points" value="93.0"/>
+        <cost name="pts" costTypeId="points" value="88.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e443-79af-2a11-b18e" name="Librarian in Terminator Armor" hidden="false" collective="false" type="unit">
@@ -2518,6 +2620,30 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4b8e-cbf5-56cf-25b7" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27fb-f64e-d3ae-8f7b" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c2e-0716-d017-aeec" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
@@ -2716,7 +2842,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc3c-164c-4c7f-3f7e" name="Rhino" hidden="false" collective="false" type="unit">
@@ -3431,6 +3557,30 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="97b6-c367-1263-6fcc" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2bbc-b1b7-332e-cfe7" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0dfb-c76e-d7d5-6d41" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
@@ -3748,6 +3898,30 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="bedd-2641-93f2-6c6c" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1343-cae2-188a-ee38" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1e8-4832-43f5-b5b3" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
@@ -3944,7 +4118,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="f419-7433-c556-6b68" name="New EntryLink" hidden="false" targetId="ccae-c3ab-8082-67d0" type="selectionEntryGroup">
+                    <entryLink id="f419-7433-c556-6b68" name="DW Vet List" hidden="false" targetId="ccae-c3ab-8082-67d0" type="selectionEntryGroup">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -4078,7 +4252,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
-                    <entryLink id="3127-abfd-2668-e616" name="New EntryLink" hidden="false" targetId="531b-74ae-ce9f-59ff" type="selectionEntryGroup">
+                    <entryLink id="3127-abfd-2668-e616" name="Sgt List" hidden="false" targetId="531b-74ae-ce9f-59ff" type="selectionEntryGroup">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -4129,7 +4303,7 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="5ba1-d4c7-a92b-7574" name="New EntryLink" hidden="false" targetId="8ece-0a9d-913c-b425" type="selectionEntry">
+                <entryLink id="5ba1-d4c7-a92b-7574" name="Combat shield" hidden="false" targetId="2792-c0fb-d72e-cee4" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4778,13 +4952,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="15">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f06-c846-dede-b080" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f634-910d-c22d-915c" type="max"/>
@@ -6690,7 +6858,7 @@
               <entryLinks/>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="21.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8d99-6bf7-fa53-e622" name="Aggressor" hidden="false" collective="false" type="upgrade">
@@ -6723,7 +6891,7 @@
               <entryLinks/>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6746,7 +6914,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="18">
+                <modifier type="increment" field="points" value="16">
                   <repeats>
                     <repeat field="selections" scope="78d6-2309-b216-3f7d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2313-de6c-656d-3313" repeats="1" roundUp="false"/>
                   </repeats>
@@ -6862,7 +7030,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="035c-c5d7-0f93-5287" name="Heavy Plasma Incinerator" hidden="false" collective="false" type="upgrade">
@@ -7361,6 +7529,30 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ce3d-47ed-3a2d-4528" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6a50-3f73-74c3-74e7" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="87f0-6de6-7872-8554" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
@@ -7550,7 +7742,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -7586,7 +7778,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -7623,7 +7815,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="0ea8-52d9-c2ec-aeba" name="Plasma blaster" hidden="false" targetId="5aaf-d2e4-ec59-0407" type="selectionEntry">
+            <entryLink id="0ea8-52d9-c2ec-aeba" name="Plasma Exterminator" hidden="false" targetId="cdfb-5d58-5558-499e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7812,7 +8004,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="pts" costTypeId="points" value="18.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -7906,7 +8098,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="pts" costTypeId="points" value="18.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8077,7 +8269,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ae9-7ad5-eebf-f4d6" name="Primaris Apothecary" hidden="false" collective="false" type="upgrade">
@@ -8202,6 +8394,30 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e766-52b6-3252-8dca" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a346-50c0-4b34-840a" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a2f-db54-26cd-3698" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="52d0-fd9c-1c87-474e" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a975-d404-9c6e-b42a" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -8375,6 +8591,30 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cdf4-5925-4abc-dedb" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7bc0-fbfa-0548-973a" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dfb0-da03-b118-18c2" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
@@ -8530,6 +8770,30 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da85-038d-dc2a-571d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8155-02d6-456b-6098" type="max"/>
           </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a09c-f539-9d0a-6d36" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="48ee-d211-bdde-1d00" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d937-922a-e5d9-4044" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -10005,6 +10269,289 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0664-4d8b-bb00-4788" name="Librarian with Jump Pack" book="Chapter Approved 2017" page="117" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0533-547c-dc3c-2087" name="Psyker" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cast" characteristicTypeId="5afb-9914-904b-d3b3" value="This model can attempt to manifest two psychic powers in each friendly Psychic phase, and sttempt to deny one psychic power in each enemy Psychic phase. It knows the Smite power and two psychic powers from the Librarius disipline."/>
+            <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b"/>
+            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46"/>
+            <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b"/>
+          </characteristics>
+        </profile>
+        <profile id="2450-8e93-bb77-680b" name="Librarian" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="3+"/>
+            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="4"/>
+            <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="227e-5bf9-2099-88f9" name="And They Shall Know No Fear" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e3f-116c-ae57-3fef" name="New InfoLink" hidden="false" targetId="1367-6963-1239-8308" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9ded-b157-2914-af1a" name="Special Issue Ammunition" hidden="false" targetId="3ddc-7d56-adf0-a82b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6f95-4f9d-c87b-f453" name="New CategoryLink" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="28e2-9ffd-6834-ce13" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4612-5fcc-020f-5b77" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b6ac-12a0-b5c9-3ebd" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3517-ef5f-2f4a-ac62" name="New CategoryLink" hidden="false" targetId="c82e-cd8d-e26d-a2c1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9dc8-3d35-b128-fa08" name="New CategoryLink" hidden="false" targetId="5d07-819e-466e-8ec9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e9bf-afed-9dfd-8317" name="New CategoryLink" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="48b4-557f-8c16-9cb7" name="Force Weapon" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fcc-3577-bcb7-72c0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="246a-0ad1-fe56-1280" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="55ae-436b-58ab-6272" name="New EntryLink" hidden="false" targetId="4a0e-0f13-63c2-9aae" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5cf1-4296-6e0c-05d4" name="New EntryLink" hidden="false" targetId="6f9a-c4fe-3132-d011" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c424-6fdc-cf8c-1c7d" name="New EntryLink" hidden="false" targetId="07e7-1f9b-4c1c-aad9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e2a1-dcb9-ed67-d0da" name="Weapon Options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc3d-d58a-2b0a-cb6a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="24fd-e81a-8a3f-f371" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="04b2-467c-7bb7-9b18" name="New EntryLink" hidden="false" targetId="0334-f487-8229-0c1a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea43-bc86-90a0-0133" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ede4-126b-f163-579e" name="Boltgun" hidden="false" targetId="69ce-51e1-7d84-4eaf" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad14-e4fc-cd73-91c9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="79ff-fd35-1f48-aeda" name="New EntryLink" hidden="false" targetId="9057-9993-438e-ee98" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3df-a21e-92ae-fd29" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="84f7-730a-9293-ace0" name="New EntryLink" hidden="false" targetId="7351-b60b-1ed4-5d3a" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="27e1-1229-3acd-946a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fe7d-6121-6222-26a5" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be9-b8d4-2d76-9753" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0609-5b13-a683-099f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="153b-36d9-f388-5de4" name="Librarius Discipline" hidden="false" targetId="b0d3-e63a-1e1a-5790" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3f9e-de34-d984-f238" name="Jump Pack" hidden="false" targetId="1ae2-d5a1-2e83-f6db" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f2ac-fd42-767c-8f7b" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6f3e-6ea1-4948-9d7d" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="da4a-cba8-e266-2b60" name="Warlord Trait" hidden="false" targetId="de00-11d5-2371-36ca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="pts" costTypeId="points" value="112.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec5e-133b-3e38-eeeb" name="Bane of Monstrosities" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="f213-913f-2e12-bfa2" name="Bane of Monstrosities" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You can re-roll failed wound roll for your Warlord when attacking enemy VEHICLES or MONSTERS.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4243-f0a1-c3d7-4330" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9057-9993-438e-ee98" name="Combi-Weapons" hidden="false" collective="false">
@@ -10878,7 +11425,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9b72-bf3f-6e7e-7e44" name="New EntryLink" hidden="false" targetId="95a1-9d6a-cf97-eff2" type="selectionEntry">
+        <entryLink id="9b72-bf3f-6e7e-7e44" name="Thunder Hammer and Storm Shield" hidden="false" targetId="95a1-9d6a-cf97-eff2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11142,17 +11689,11 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b38d-8024-c6b2-bedb" name="New EntryLink" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+        <entryLink id="b38d-8024-c6b2-bedb" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="15">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -11302,17 +11843,11 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="bf7b-f9e5-aef1-6f15" name="New EntryLink" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+        <entryLink id="bf7b-f9e5-aef1-6f15" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="15">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd3-470a-90f9-7fb1" type="max"/>
           </constraints>
@@ -11452,7 +11987,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3f78-44d5-bfac-8020" name="New EntryLink" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
+        <entryLink id="3f78-44d5-bfac-8020" name="Power fist" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11646,17 +12181,11 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="88b0-a1d8-9332-5aa1" name="New EntryLink" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+        <entryLink id="88b0-a1d8-9332-5aa1" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="15">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff7-5e9f-2f7e-fdd7" type="max"/>
           </constraints>
@@ -11793,6 +12322,90 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="de00-11d5-2371-36ca" name="Warlord Trait" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f7-7eda-42ab-c650" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c65a-6abe-ca09-9403" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2d69-97f6-d069-5992" name="Warlord Traits (BRB)" hidden="false" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="eef7-458c-1395-dd14" name="Warlord Traits (CA)" hidden="false" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4143-0c91-26b2-670c" name="Bane of Monstrosities" hidden="false" targetId="ec5e-133b-3e38-eeeb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a06a-d610-aa13-235d" name="Relics" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="449c-9202-d1b0-368c" name="The Beacon Angelis" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4ad5-b3cb-da51-da8a" name="The Beacon Angelis" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per battle, at the end of any of your Movement phases, the bearer can use the Beacon Angelis to teleport a unit to his position. When he does so, select a firendly DEATHWATCH INFANTRY or BIKER unit that is either on the battlefield, or is in a teleportarium. In either case, remove this unit and then set it up wholly within 6&quot; of the bearer and more than 9&quot; from any enemy model (any model that cannot be set up is slain)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85ff-a2ee-b7c3-420a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9090-41d5-c790-ab27" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

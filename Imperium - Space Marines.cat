@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="846d-3c14-21fc-369f" name="Imperium - Space Marines" book="Index: Imperium 1 &amp; Codex: Space Marines" revision="35" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="846d-3c14-21fc-369f" name="Imperium - Space Marines" book="Index: Imperium 1 &amp; Codex: Space Marines" revision="38" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3840,7 +3840,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="aad7-68c8-acc2-02fd" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="aad7-68c8-acc2-02fd" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3868,6 +3868,17 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="33fa-dbda-54bb-62c8" name="Bolt pistol" hidden="false" targetId="0334-f487-8229-0c1a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae39-d9be-b174-b772" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8655-922a-d383-8d57" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -4084,12 +4095,12 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="9cc1-7740-4a7e-9045" name="New EntryLink" hidden="false" targetId="181e-0718-160e-2e75" type="selectionEntry">
+        <entryLink id="9cc1-7740-4a7e-9045" name="Jump Pack" hidden="false" targetId="181e-0718-160e-2e75" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="23">
+            <modifier type="increment" field="points" value="24">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -4117,7 +4128,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" costTypeId="points" value="93.0"/>
+        <cost name="pts" costTypeId="points" value="88.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33b2-f596-1a44-a2a0" name="Librarian in Terminator Armor" hidden="false" collective="false" type="upgrade">
@@ -4345,7 +4356,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
-        <cost name="pts" costTypeId="points" value="143.0"/>
+        <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddf0-3cff-f619-d42f" name="Librarian on Bike" hidden="false" collective="false" type="upgrade">
@@ -4622,7 +4633,7 @@
             <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can tranport 10 CHAPTER INFANTRY models. It cannot transport JUMP PACK, TERMINATOR, PRIMARIS, CENTURION models."/>
           </characteristics>
         </profile>
-        <profile id="1c1e-1fb4-a774-87c3" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="1c1e-1fb4-a774-87c3" name="Rhino 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4634,7 +4645,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="e75b-8460-bda7-5476" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="e75b-8460-bda7-5476" name="Rhino 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4646,7 +4657,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="6d2b-66b4-5116-96aa" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="6d2b-66b4-5116-96aa" name="Rhino 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5713,7 +5724,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
-        <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3b6-1ac6-0a68-68c7" name="Chaplain on Bike" hidden="false" collective="false" type="upgrade">
@@ -8689,7 +8700,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="pts" costTypeId="points" value="18.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -8758,7 +8769,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="pts" costTypeId="points" value="18.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11497,7 +11508,7 @@
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11524,7 +11535,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11562,7 +11573,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -11700,7 +11711,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2714-e64c-1ccf-b0b3" name="Terminators" hidden="false" collective="false" defaultSelectionEntryId="860c-e3ad-2c8d-f3d0">
+        <selectionEntryGroup id="2714-e64c-1ccf-b0b3" name="Terminators" hidden="false" collective="false" defaultSelectionEntryId="7ac3-3048-44ad-f2db">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11752,49 +11763,19 @@
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="860c-e3ad-2c8d-f3d0" name="Terminator" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="860c-e3ad-2c8d-f3d0" name="Terminator w/CF" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eedc-3fa1-e107-9de2" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="fc11-4680-0573-4ea8" name="Combat Weapon Option" hidden="false" collective="false" defaultSelectionEntryId="fa22-2923-efe3-bf6d">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e8c-1995-d6c9-fd81" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="09be-8817-8aea-cb6d" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="fa22-2923-efe3-bf6d" name="Power fist" hidden="false" targetId="caae-f721-310b-3798" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="9044-852d-06f8-1368" name="Chainfist" hidden="false" targetId="e464-77c1-12bb-e52f" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="d3d7-760a-ad21-3a9b" name="Storm bolter" hidden="false" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+                <entryLink id="d3d7-760a-ad21-3a9b" name="Storm bolter" hidden="false" targetId="8d51-2073-1990-b915" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11802,6 +11783,17 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa70-a3a0-0d4d-a27c" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a1f-928e-a60a-7588" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="58fe-f5f4-6b29-a1e7" name="Chainfist" hidden="false" targetId="d9b3-4b4e-714e-b467" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e1d-80d1-c09a-11be" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ae9-c323-c626-0972" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -11871,6 +11863,46 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafb-92d2-9130-7203" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="786b-b425-1cd8-7343" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="points" value="26.0"/>
+                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ac3-3048-44ad-f2db" name="Terminator w/PF" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88f4-6534-aa98-8022" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b901-4f82-86e0-361c" name="Storm bolter" hidden="false" targetId="8d51-2073-1990-b915" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ab-1a24-b858-712d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b5a-07c5-1405-7ead" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="b404-ca26-0ee2-4426" name="Power fist" hidden="false" targetId="b3d9-4546-b27b-f995" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae54-5095-a74f-2294" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="948c-66ce-1d24-42cd" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -12600,7 +12632,7 @@
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12638,7 +12670,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12726,7 +12758,7 @@
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12753,7 +12785,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -12791,7 +12823,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="31.0"/>
+                <cost name="pts" costTypeId="points" value="26.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -13424,7 +13456,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -13460,7 +13492,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="pts" costTypeId="points" value="25.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -13486,7 +13518,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="15">
+                <modifier type="increment" field="points" value="10">
                   <repeats>
                     <repeat field="selections" scope="70bc-0516-df21-bbb8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="2" roundUp="false"/>
                   </repeats>
@@ -13502,7 +13534,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="28">
+                <modifier type="increment" field="points" value="17">
                   <repeats>
                     <repeat field="selections" scope="70bc-0516-df21-bbb8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="2" roundUp="false"/>
                   </repeats>
@@ -14891,7 +14923,7 @@
             <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 6 CHAPTER INFANTRY model. It cannot transport JUMP PACK, PRIMARIS, TERMINATOR, or CENTRION models."/>
           </characteristics>
         </profile>
-        <profile id="dc16-cb33-aaa1-9816" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="dc16-cb33-aaa1-9816" name="Rhino Primaris 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14903,7 +14935,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="9a2a-7002-aa94-e6c5" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="9a2a-7002-aa94-e6c5" name="Rhino Primaris 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14915,7 +14947,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="58aa-fa78-02f6-cc22" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="58aa-fa78-02f6-cc22" name="Rhino Primaris 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15056,7 +15088,7 @@
             <characteristic name="Capacity" characteristicTypeId="15aa-1916-a38b-d223" value="This model can transport 6 CHAPTER INFANTRY models. It cannot transport JUMP PACK, TERMINATORS, PRIMARIS, or CENTURION models."/>
           </characteristics>
         </profile>
-        <profile id="5f53-d1dd-375e-c415" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="5f53-d1dd-375e-c415" name="Razorback 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15068,7 +15100,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="7672-5b3a-122b-5cde" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="7672-5b3a-122b-5cde" name="Razorback 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15080,7 +15112,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="2d57-5d3b-0c4e-61f1" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="2d57-5d3b-0c4e-61f1" name="Razorback 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15256,7 +15288,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6459-e87c-6b3f-56f2" name="Drop Pod" hidden="false" collective="false" type="upgrade">
@@ -15382,7 +15414,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="93.0"/>
+        <cost name="pts" costTypeId="points" value="83.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c59-8294-4005-3303" name="Stormhawk Interceptor" hidden="false" collective="false" type="upgrade">
@@ -15404,7 +15436,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="8cad-0457-e750-5f8d" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="8cad-0457-e750-5f8d" name="Stormhawk Interceptor 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15416,7 +15448,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="f682-97a4-e6dd-5055" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="f682-97a4-e6dd-5055" name="Stormhawk Interceptor 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15428,7 +15460,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="6974-8134-87b2-e19b" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="6974-8134-87b2-e19b" name="Stormhawk Interceptor 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15641,7 +15673,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="cb9c-911a-d4d3-68ca" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="cb9c-911a-d4d3-68ca" name="Stormtalon Gunship 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15653,7 +15685,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="07d7-cfe6-3b51-9a64" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="07d7-cfe6-3b51-9a64" name="Stormtalon Gunship 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15665,7 +15697,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="00f0-b1ae-88e3-4e0b" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="00f0-b1ae-88e3-4e0b" name="Stormtalon Gunship 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -16698,7 +16730,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="16">
+                <modifier type="increment" field="points" value="17">
                   <repeats>
                     <repeat field="selections" scope="ac7e-23cf-be74-f957" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -17224,7 +17256,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="e488-ce1d-4091-7370" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="e488-ce1d-4091-7370" name="Vindicator 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17236,7 +17268,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="5a0e-f8ee-ee51-3b82" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="5a0e-f8ee-ee51-3b82" name="Vindicator 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17248,7 +17280,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="00ae-5984-37b3-63f2" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="00ae-5984-37b3-63f2" name="Vindicator 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17358,7 +17390,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
-        <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77aa-cbfb-0955-3985" name="Whirlwind" hidden="false" collective="false" type="upgrade">
@@ -17380,7 +17412,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="4002-dbd1-8696-03ba" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="4002-dbd1-8696-03ba" name="Whirlwind 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17392,7 +17424,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="6006-8d69-1a16-4222" name="Row 2" book="" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="6006-8d69-1a16-4222" name="Whirlwind 2" book="" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17404,7 +17436,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="fadb-7bfc-0fb4-8f0e" name="Row 3" book="" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="fadb-7bfc-0fb4-8f0e" name="Whirlwind 3" book="" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17534,7 +17566,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="75.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af33-4263-38f9-ef56" name="Hunter" hidden="false" collective="false" type="upgrade">
@@ -17712,7 +17744,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="84b3-a09c-d77c-a92b" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="84b3-a09c-d77c-a92b" name="Stalker 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17724,7 +17756,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="c101-593d-cff6-a81f" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="c101-593d-cff6-a81f" name="Stalker 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17736,7 +17768,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="7c09-ced3-c9da-4736" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="7c09-ced3-c9da-4736" name="Stalker 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17860,7 +17892,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96bd-01eb-93d0-2c91" name="Stormraven Gunship" hidden="false" collective="false" type="upgrade">
@@ -17882,7 +17914,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="dfc4-21e1-46c9-5ff6" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="dfc4-21e1-46c9-5ff6" name="Stormraven Gunship 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17894,7 +17926,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3"/>
           </characteristics>
         </profile>
-        <profile id="93b0-4f3d-c258-807f" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="93b0-4f3d-c258-807f" name="Stormraven Gunship 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -17906,7 +17938,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D3"/>
           </characteristics>
         </profile>
-        <profile id="33ea-d2ae-fc56-d346" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="33ea-d2ae-fc56-d346" name="Stormraven Gunship 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18059,7 +18091,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="8.0"/>
+            <cost name="pts" costTypeId="points" value="20.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -18159,7 +18191,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
-        <cost name="pts" costTypeId="points" value="172.0"/>
+        <cost name="pts" costTypeId="points" value="192.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dc2-439f-a67f-ab18" name="Land Raider" hidden="false" collective="false" type="upgrade">
@@ -18181,7 +18213,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="5f35-1d23-7643-7d2a" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="5f35-1d23-7643-7d2a" name="Land Raider 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18193,7 +18225,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="eb40-74da-ae99-f861" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="eb40-74da-ae99-f861" name="Land Raider 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18205,7 +18237,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="5888-f05f-9e6d-03bc" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="5888-f05f-9e6d-03bc" name="Land Raider 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18380,7 +18412,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="cb65-5512-fc89-fe9b" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="cb65-5512-fc89-fe9b" name="LR Crusader 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18392,7 +18424,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="0345-f25e-9662-dbb4" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="0345-f25e-9662-dbb4" name="LR Crusader 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18404,7 +18436,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="8065-5ca8-fc39-0ece" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="8065-5ca8-fc39-0ece" name="LR Crusader 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18446,7 +18478,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d625-169a-eeec-bf95" name="New InfoLink" hidden="false" targetId="26a1-7cd2-c9e6-d6ab" type="profile">
+        <infoLink id="d625-169a-eeec-bf95" name="Frag Assault Launchers" hidden="false" targetId="26a1-7cd2-c9e6-d6ab" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18592,7 +18624,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="d5cf-b301-af45-7500" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="d5cf-b301-af45-7500" name="LR Redeemer 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18604,7 +18636,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="0cce-adcf-6c79-b78a" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="0cce-adcf-6c79-b78a" name="LR Redeemer 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18616,7 +18648,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="9ebd-6844-6042-a487" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="9ebd-6844-6042-a487" name="LR Redeemer 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18804,7 +18836,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="f086-59cf-7566-cb6e" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="f086-59cf-7566-cb6e" name="LR Excelsior 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18816,7 +18848,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="009f-986d-d483-3fce" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="009f-986d-d483-3fce" name="LR Excelsior 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -18828,7 +18860,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="c082-8d0d-fbc1-66ba" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="c082-8d0d-fbc1-66ba" name="LR Excelsior 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19461,7 +19493,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="18.0"/>
-        <cost name="pts" costTypeId="points" value="360.0"/>
+        <cost name="pts" costTypeId="points" value="385.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a58-b322-a32c-7b29" name="Captain Sicarius" hidden="false" collective="false" type="upgrade">
@@ -20603,7 +20635,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="133c-6d1c-d62d-6b19" name="Tyrannic War Veterans" hidden="false" collective="false" type="upgrade">
@@ -20871,7 +20903,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
           </characteristics>
         </profile>
-        <profile id="7e70-4a6d-16f1-b3f6" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="7e70-4a6d-16f1-b3f6" name="Terminus Ultra 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20883,7 +20915,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="55ce-b520-6c20-e25f" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="55ce-b520-6c20-e25f" name="Terminus Ultra 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -20895,7 +20927,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="09c0-c2dc-385d-ed30" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="09c0-c2dc-385d-ed30" name="Terminus Ultra 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21098,7 +21130,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="400.0"/>
+        <cost name="pts" costTypeId="points" value="450.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="30.0"/>
       </costs>
     </selectionEntry>
@@ -21704,7 +21736,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1ceb-4568-edeb-e155" type="notEqualTo"/>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf89-9471-d639-be6a" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf89-9471-d639-be6a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -24922,7 +24954,7 @@
               <entryLinks/>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="21.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="88f6-18a6-66f0-55ba" name="Aggressor" hidden="false" collective="false" type="model">
@@ -24957,7 +24989,7 @@
               <entryLinks/>
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="25.0"/>
+                <cost name="pts" costTypeId="points" value="21.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -24980,7 +25012,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="18">
+                <modifier type="increment" field="points" value="16">
                   <repeats>
                     <repeat field="selections" scope="0f7e-ce51-f92d-0138" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -25327,7 +25359,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="47cb-210a-e81c-172f" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="47cb-210a-e81c-172f" name="Redemptor Dreadnought 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25339,7 +25371,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="ca2a-c84a-d7b4-1c94" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="ca2a-c84a-d7b4-1c94" name="Redemptor Dreadnought 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25351,7 +25383,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="419d-393b-8ded-b091" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="419d-393b-8ded-b091" name="Redemptor Dreadnought 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25716,7 +25748,7 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="8f18-7ecc-c17d-5365" name="Row 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="8f18-7ecc-c17d-5365" name="Repulsor 1" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25728,7 +25760,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="6"/>
           </characteristics>
         </profile>
-        <profile id="25c3-c523-d115-58d7" name="Row 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="25c3-c523-d115-58d7" name="Repulsor 2" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25740,7 +25772,7 @@
             <characteristic name="Characteristic 3" characteristicTypeId="df06-8eca-150f-90ba" value="D6"/>
           </characteristics>
         </profile>
-        <profile id="c06e-223e-e379-a0e5" name="Row 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
+        <profile id="c06e-223e-e379-a0e5" name="Repulsor 3" hidden="false" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -26934,6 +26966,28 @@
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8d51-2073-1990-b915" name="Storm bolter" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="23e7-b64b-2dea-a2b1" name="Storm bolter" hidden="false" targetId="505e-a5aa-edab-6d5b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f11e-6eca-c706-dff0" name="Sgt Equipment" hidden="false" collective="false">
@@ -27516,7 +27570,10 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
